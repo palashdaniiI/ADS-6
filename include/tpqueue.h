@@ -16,7 +16,7 @@ class TPQueue {
  end++;
     }
  T pop() {
-        return *(arr + (start++) % size); 
+        return *(arr + (start++) % size);
     }
 };
 
