@@ -20,5 +20,4 @@ class TPQueue {
     return *(arr + (start++) % size);
   }
 };
-
 #endif  // INCLUDE_TPQUEUE_H_
